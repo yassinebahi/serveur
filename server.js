@@ -11,8 +11,8 @@ server.use(bodyParser.json());
 server.set('json spaces', 2);
 routes(server);
 
-server.listen(3000, () =>{
-    console.log("Serveur demarré en écoute sur le porte 3000 !")
+server.listen(2000, () =>{
+    console.log("Serveur demarré en écoute sur le porte 2000 !")
     mongoose.connect('mongodb://localhost/smartphone',   
     );
     mongoose.connection
